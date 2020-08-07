@@ -20,5 +20,12 @@ class Patient
      @@all
    end
    
+   def doctors 
+     
+     
+     
+     
+   end 
+   
   
 end
