@@ -13,12 +13,6 @@ class Patient
     Appointment.all.select {|patient| appointments.patient == self}
   
   end
-     
-     
-   end
-     
-     
-   end 
    
    
    
