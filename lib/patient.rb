@@ -24,6 +24,7 @@ class Patient
     doctors.collect do |doctor|
       doctor.patient 
     end
+   end
    
   
 end
