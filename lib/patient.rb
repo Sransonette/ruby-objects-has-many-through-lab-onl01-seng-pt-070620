@@ -21,11 +21,9 @@ class Patient
    end
    
    def doctors 
-     
-     
-     
-     
-   end 
+    doctors.collect do |doctor|
+      doctor.patient 
+    end
    
   
 end
